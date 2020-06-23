@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:text="FEEDBACK"
+           android:textSize="40dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:text="Contact Me:"
+            android:textSize="15dp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:text="460019140@qq.com"
+            android:textSize="15dp"
+            android:textColor="@color/calendar_circle_current_color"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="github:"
+            android:layout_marginLeft="30dp"
+            android:textSize="15dp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/github"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:text="https://github.com/"
+            android:textSize="15dp"
+            android:textColor="@color/calendar_circle_current_color"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="WeiBo:"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/weibo"
+
+            android:layout_width="wrap_content"
+
+
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:text="http://weibo.com"
+
+            android:textColor="@color/calendar_circle_current_color"
+            android:textSize="15dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp">
+
+
+        <ImageButton
+            android:id="@+id/btn_phone"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="88dp"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:src="@drawable/phone"/>
+        <ImageButton
+            android:id="@+id/btn_msg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/msg"/>
+    </LinearLayout>
+</LinearLayout>
