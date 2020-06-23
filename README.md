@@ -1,14 +1,7 @@
 # Android 日历提醒软件
-快要毕业答辩了，课题是做一款Android日历提醒软件，最近一直在改论文，代码很久之前就完成了，虽然很多方面写的不好，但还是决定分享出来，希望可以帮助到一些同学，大家也可以对我有缺陷的地方提出建议。
-
-因为这个项目主要以练手为主，所以在界面和代码编写上参考了很多开源的项目，以实现功能为主。
-
-GitHub项目地址:[https://github.com/Werb/MyCalendarDemo](https://github.com/Werb/MyCalendarDemo)
 
 ### 主界面
-* 整体风格是参考Google日历
-* 主界面可以根据不同的日期滑动选择查看概要日程信息
-* 侧滑菜单可以分类按照某一周或某一天查看日程信息
+
 * 日历和日程的参考GitHub上的开源项目[AgendaCalendarView](https://github.com/Tibolte/AgendaCalendarView)，然后根据自己情况，修改代码，配合数据库实现动态数据显示
 
 <img src="/screenshots/s1.jpg" alt="screenshot" title="主界面" width="270" height="486" /> <img src="/screenshots/s3.jpg" alt="screenshot" title="侧滑菜单界面" width="270" height="486" />
@@ -30,6 +23,9 @@ GitHub项目地址:[https://github.com/Werb/MyCalendarDemo](https://github.com/W
 * 这里处理的不是很好，有更好的处理方法，大家可以联系告诉我
 
 <img src="/screenshots/s7.jpg" alt="screenshot" title="日程到点提醒" width="270" height="486" />
+
+### 地点定位和检索附近
+<img src=""
 
 ### License
 * 再次感谢开源项目[AgendaCalendarView](https://github.com/Tibolte/AgendaCalendarView)的帮助
