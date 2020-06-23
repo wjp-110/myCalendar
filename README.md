@@ -25,9 +25,18 @@
 <img src="/screenshots/s7.jpg" alt="screenshot" title="日程到点提醒" width="270" height="486" />
 
 ### 地点定位和检索附近
-<img src=""
+<img src="/screenshots/s9.png" alt="screenshot" title="地点定位" width="270" height="486/>
+                                                                                 
+### 反馈界面
+*可以通过网站、邮件、微博的方式联系我
+*实现打电话、发短信功能
+<img src="/screenshots/s8.png" alt="screenshot" title="反馈界面" width="270" height="486/>
+
+### 添加了活动的优先级
+<img src="/screenshots/s10.png" alt="screenshot" title="活动优先级" width="270" height="486/>
 
 ### License
+                                                                                   
 * 再次感谢开源项目[AgendaCalendarView](https://github.com/Tibolte/AgendaCalendarView)的帮助
 * 同时希望可以帮助到其他人
 
